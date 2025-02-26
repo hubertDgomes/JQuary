@@ -46,5 +46,19 @@ a{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
+.red{
+    color: red;
+}
+.row h1{
+    color: red;
+}
 /* MainPart End */
+
+/* birthday part */
+.timerPart{
+    padding: 50px 0;
+}
+.cenText{
+    padding-bottom: 20px;
+}
+/* birthday part */
