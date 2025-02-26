@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* Common */
+/* MainPart Start */
+.mainPart{
+    padding: 120px;
+    background: rgb(86, 56, 146);
+    height: 900px;
+}
+.buttonFOR{
+    padding-bottom: 20px;
+}
+.buttonFOR button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    background: rgb(52, 160, 160);
+    color: blanchedalmond;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.green{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background: green;
+}
+.white{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+}
+.box{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* MainPart End */

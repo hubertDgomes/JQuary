@@ -1,0 +1,26 @@
+$(function(){
+    $("#close").click(function(){
+        $(".box").hide(1000)
+    })
+    $("#open").click(function(){
+        $(".box").show(1000)
+    })
+    $("#openAndClose").click(function(){
+        $(".box").toggle(1000)
+    })
+    $("#fadeOut").click(function(){
+        $(".box").fadeOut(1000)
+    })
+    $("#fadeIn").click(function(){
+        $(".box").fadeIn(1000)
+    })
+    $("#fadeInOut").click(function(){
+        $(".box").fadeToggle(1000)
+    })
+    $("#japan").click(function(){
+        $(".green").addClass("white")
+    })
+    $("#japanOut").click(function(){
+        $(".green").removeClass("white")
+    })
+})
